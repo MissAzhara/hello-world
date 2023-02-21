@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T17:01:03.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JMiIUGtThSqp0SjeofNr" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T08:49:55.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AXPi6ULrGfmtYxsB90zR" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -256,8 +256,11 @@
         <mxCell id="YFnsuhwOAYmH7LEvqakk-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YFnsuhwOAYmH7LEvqakk-211" target="YFnsuhwOAYmH7LEvqakk-181">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YFnsuhwOAYmH7LEvqakk-211" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="220" width="40" height="40" as="geometry" />
+        <mxCell id="YFnsuhwOAYmH7LEvqakk-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YFnsuhwOAYmH7LEvqakk-211" target="YFnsuhwOAYmH7LEvqakk-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YFnsuhwOAYmH7LEvqakk-211" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="565" y="215" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YFnsuhwOAYmH7LEvqakk-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YFnsuhwOAYmH7LEvqakk-181" target="YFnsuhwOAYmH7LEvqakk-185">
           <mxGeometry relative="1" as="geometry" />
@@ -272,13 +275,6 @@
         </mxCell>
         <mxCell id="YFnsuhwOAYmH7LEvqakk-168" value="Ошибка: Срок кода истек" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="700" y="215" width="102.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="YFnsuhwOAYmH7LEvqakk-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YFnsuhwOAYmH7LEvqakk-211" target="YFnsuhwOAYmH7LEvqakk-168">
-          <mxGeometry x="-0.3026" y="-10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="472.5" y="675" as="sourcePoint" />
-            <mxPoint x="432.5" y="670" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
